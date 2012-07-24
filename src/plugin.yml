@@ -1,0 +1,10 @@
+name: RegeXEcuter
+author: nsordk
+main: info.plugmania.regexecuter.RegeXEcuter
+version: 0.0.1
+softdepend:
+description: PreWritten regex to prevent chat- & commandpatterns and perform actions towards them.
+permissions:
+  regex.safe:
+    description: regexecuter stops watching player
+    default: op
