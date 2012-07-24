@@ -1,7 +1,7 @@
 name: RegeXEcuter
-author: nsordk
+author: nsordk & PlugMania
 main: info.plugmania.regexecuter.RegeXEcuter
-version: 0.0.2
+version: 1.0.0
 softdepend:
 description: PreWritten regex to prevent chat- & commandpatterns and perform actions towards them.
 permissions:

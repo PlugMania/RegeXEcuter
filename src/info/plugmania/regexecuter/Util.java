@@ -14,8 +14,9 @@ public class Util {
 		Pattern r = Pattern.compile(pattern);
 		Matcher m = r.matcher(str);
 		
-		if(m.find()) return true;
+		if(plugin.debug) plugin.getLogger().info("DEBUG: Pattern:" + pattern);
 		
-		return false;
+		if(m.find()) return true;
+		else return false;
 	}
 }

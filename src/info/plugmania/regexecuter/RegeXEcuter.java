@@ -9,6 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class RegeXEcuter extends JavaPlugin {
 
 	public Util util=new Util(this);
+	public boolean debug=false;
 	
 	public void onDisable() {
 		getLogger().info(this.getDescription().getName() + " is now disabled.");
